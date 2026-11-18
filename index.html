@@ -3,16 +3,41 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ulama</title>
+<title>Ulama: Kelime Zinciri</title>
+<meta name="description" content="Son harften tut, zinciri ör. 3000 seviyeli Türkçe kelime zinciri oyunu. iPhone için App Store'da.">
+<link rel="icon" href="ikon.png">
 <style>
-body{font-family:-apple-system,system-ui,sans-serif;max-width:640px;margin:48px auto;padding:0 16px;line-height:1.6;color:#222;background:#fffaf3}
-h1{color:#b5541c;margin-bottom:4px}
-a{color:#b5541c}
+:root{--bg:#0f1a2e;--card:#16243d;--ink:#f3ead8;--muted:#a9b3c4;--teal:#2f8f7f;--saffron:#e0a43a}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;background:var(--bg);color:var(--ink);line-height:1.6}
+main{max-width:640px;margin:0 auto;padding:56px 16px 40px}
+.tiles{display:flex;gap:6px;margin-bottom:28px}
+.tiles span{width:40px;height:40px;display:grid;place-items:center;border-radius:8px;background:var(--teal);font-weight:700;font-size:20px;color:#fff;box-shadow:0 3px 0 #1d5d52}
+.tiles span:last-child{background:var(--saffron);box-shadow:0 3px 0 #9c6f1f;color:#1b1206}
+h1{font-size:40px;line-height:1.15;margin:0 0 8px}
+.lead{color:var(--saffron);font-family:-apple-system,system-ui,sans-serif;margin:0 0 28px}
+p{font-family:-apple-system,system-ui,sans-serif}
+.btn{display:inline-block;background:var(--ink);color:var(--bg);text-decoration:none;padding:12px 20px;border-radius:12px;font-family:-apple-system,system-ui,sans-serif;font-weight:600}
+ul{font-family:-apple-system,system-ui,sans-serif;padding-left:20px;color:var(--muted)}
+footer{margin-top:48px;font-family:-apple-system,system-ui,sans-serif;font-size:14px;color:var(--muted)}
+footer a{color:var(--muted)}
 </style>
 </head>
 <body>
-<h1>Ulama</h1>
-<p>Kelime zinciri oyunu. iPhone için App Store'da.</p>
-<p><a href="https://docs.google.com/document/d/1znu2ENkeUhU_ILWbbbo9pANcbsUETYUMECB9uvZO_CQ/view">Gizlilik politikası ve destek</a></p>
+<main>
+<div class="tiles" aria-hidden="true"><span>U</span><span>L</span><span>A</span><span>M</span><span>A</span></div>
+<h1>Son harften tut,<br>zinciri ör.</h1>
+<p class="lead">Türkçe kelime zinciri oyunu · 3000 seviye · 10 diyar</p>
+<p>Her kelime, öncekinin son harfiyle başlar. Günün Zinciri'nde herkes aynı kelimeleri çözer; Kelime Okulu'nda yeni kelimeler öğrenirsin; Atasözü Zinciri'nde kayıp kelimeyi bulursun.</p>
+<p><a class="btn" href="https://apps.apple.com/app/apple-store/id6834082226?pt=129763969&amp;ct=web&amp;mt=8">App Store'dan indir</a></p>
+<ul>
+<li>Araya giren reklam ve banner yok</li>
+<li>Her gün yeni bir zincir</li>
+<li>iPhone için, Türkçe ve İngilizce</li>
+</ul>
+<footer>
+<a href="https://docs.google.com/document/d/1znu2ENkeUhU_ILWbbbo9pANcbsUETYUMECB9uvZO_CQ/view">Gizlilik politikası ve destek</a>
+</footer>
+</main>
 </body>
 </html>
